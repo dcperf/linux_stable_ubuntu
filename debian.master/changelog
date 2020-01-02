@@ -1,4 +1,10 @@
-linux (5.4.0-050400.201911242031) unstable; urgency=low
+linux (5.4.7-31.201911242031) eoan; urgency=medium
+
+  * Mainline build at linux-stable tag: v5.4.7
+
+ -- Changcheng Liu <changcheng.liu@aliyun.com>  Thu, 02 Jan 2020 18:33:44 +0800
+
+linux (5.4.7-050400.201911242031) unstable; urgency=low
 
   Mainline build at commit: v5.4
 
