@@ -1,3 +1,9 @@
+linux (5.6.7-31.202004230933) focal; urgency=medium
+
+  * Mainline build at linux-stable tag: v5.6.7
+
+ -- Changcheng Liu <changcheng.liu@aliyun.com>  Sat, 25 Apr 2020 22:53:05 +0800
+
 linux (5.6.7-050607.202004230933) unstable; urgency=low
 
   Mainline build at commit: v5.6.7
