@@ -22,6 +22,9 @@ ifeq ($(do_flavour_header_package),true)
 	     -name '*.sh' -o -name '*.pl' -o -name '*.lds' \) \
 	  -print | cpio -pd --preserve-modification-time $(indep_hdrdir)
 	cp -a scripts include $(indep_hdrdir)
+	if [ -e debian/build/build-generic/certs/signing_key.pem ]; then \
+		find debian/build/build-generic/certs -name 'signing_key*' -exec cp -a {} $(indep_hdrdir)/certs/ \;; \
+	fi
 	(find arch -name include -type d -print | \
 		xargs -n1 -i: find : -type f) | \
 		cpio -pd --preserve-modification-time $(indep_hdrdir)
