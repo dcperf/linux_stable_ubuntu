@@ -1,3 +1,9 @@
+linux (5.7.0-31.202005312130) focal; urgency=medium
+
+  * Mainline build at linux-stable tag: v5.7
+
+ -- nstcc2 <nstcc2@nstcloudcc2>  Fri, 05 Jun 2020 23:14:56 +0800
+
 linux (5.7.0-050700.202005312130) unstable; urgency=low
 
   Mainline build at commit: v5.7
