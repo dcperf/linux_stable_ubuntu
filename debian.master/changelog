@@ -1,3 +1,9 @@
+linux (5.10.11-31.202101301831) focal; urgency=medium
+
+  customize build based on cod/mainline/v5.10.11
+
+ -- changcheng <changcheng.liu@aliyun.com>  Sat, 30 Jan 2021 18:43:15 +0800
+
 linux (5.10.11-051011.202101271131) groovy; urgency=low
 
   Mainline build at commit: v5.10.11
