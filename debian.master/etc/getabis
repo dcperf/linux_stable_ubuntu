@@ -8,4 +8,4 @@ repo_list=(
 
 package_prefixes linux-buildinfo
 
-getall amd64 generic lowlatency
+getall amd64 generic
